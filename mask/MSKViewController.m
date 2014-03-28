@@ -106,7 +106,7 @@ const unsigned char SpeechKitApplicationKey[] = {0xc0, 0x69, 0x8d, 0xf3, 0xee, 0
     NSString *documentsDirectory = [paths objectAtIndex:0];
     NSString *path = [documentsDirectory stringByAppendingPathComponent:@"file.mp3"];
     
-    NSString *text = self.textToSpeak.text; //@"You are one chromosome away from being a potato.";
+    NSString *text = search; //@"You are one chromosome away from being a potato.";
     NSString *urlString = [NSString stringWithFormat:@"http://www.translate.google.com/translate_tts?tl=fr&q=%@",text];
     NSURL *url = [NSURL URLWithString:[urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     NSMutableURLRequest* request = [[NSMutableURLRequest alloc] initWithURL:url] ;
@@ -142,6 +142,8 @@ const unsigned char SpeechKitApplicationKey[] = {0xc0, 0x69, 0x8d, 0xf3, 0xee, 0
     //[self performSelector:@selector(performRecognition:) withObject:nil afterDelay:1];
     
 }
+
+
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
 {

@@ -60,6 +60,7 @@
 		7428501918D8F67000A56384 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7446DDEF18DD04A5005FB4BE /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
 		7446DDF118DD04BA005FB4BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7451232A18E3E2C00092D474 /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
 		74C78D9F18DBC268004CA2FC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -135,6 +136,7 @@
 				74284FFA18D8F62F00A56384 /* MSKViewController.m */,
 				74284FFC18D8F62F00A56384 /* Images.xcassets */,
 				74284FEB18D8F62F00A56384 /* Supporting Files */,
+				7451232A18E3E2C00092D474 /* STViewController.h */,
 			);
 			path = mask;
 			sourceTree = "<group>";
